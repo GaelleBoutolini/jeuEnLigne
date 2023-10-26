@@ -13,7 +13,6 @@
   }
   
  #jeux {
-  display:flexbox;
   width:100px;
      height:100px;
       background:green;
@@ -30,8 +29,6 @@
  }
 
  #stop{
-
-  display:flexbox;
   width:100px;
      height:100px;
       background:green;
@@ -71,7 +68,7 @@
 body {
   background-image: url('./img1.jpg');
   background-size: cover;
-  background-attachment: fixed; /* Cette ligne rendra l'image fixe pendant le défilement */
+  background-attachment: fixed; 
 }
   .container{
     display: flex; 
