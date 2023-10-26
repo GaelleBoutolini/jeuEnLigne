@@ -70,6 +70,11 @@ body {
   background-size: cover;
   background-attachment: fixed; 
 }
+
+
+
+
+
   .container{
     display: flex; 
     flex-direction: column; 

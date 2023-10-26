@@ -20,7 +20,7 @@ $(document).ready(function() {
         let randomIndex = Math.floor(Math.random() * holes.length);
         let randomHole = $(holes[randomIndex]);
         $('.mole').removeClass('mole');
-        let taupe = $('<img>').attr('src', '/taupe.png').addClass('mole');
+        let taupe = $('<img>').attr('src', '/img.png').addClass('mole');
         $(randomHole).addClass('mole').append(taupe);
         setTimeout(function() {
             $(randomHole).find('.mole').remove();
